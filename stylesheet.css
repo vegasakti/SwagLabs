@@ -1,0 +1,207 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+.profile-header{
+  background-color: #44bcd7;
+  border-bottom: 2px solid #E2F3FB;
+}
+
+.user-image {
+  width: 50%;
+  height: 80%;
+
+}
+
+
+.user-detail{
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.user-data{
+  float: right;
+  width: 60%;
+  padding-left: 27px;
+  margin-bottom: 20px;
+  margin-top: -400px;
+}
+.user-data h2{ 
+  margin-bottom: 0px;
+  margin-top: 35px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.user-data p{
+  font-size: 24px;
+  color: #404040;
+}
+
+.user-data .post-label{
+  font-size: 24px;
+  border: 1px solid #C3CECB;
+  padding: 0px 4px;
+  border-radius: 4px;
+  background: #F3F5F5;
+  margin-right: 5px;
+}
+.user-data .post-label:hover{
+  background-color: #F8EDE7;
+  border-color: #F2D4BA;
+}
+
+
+
+
+
+
+
+
+
+li {
+  list-style: none;
+}
+
+/* Ketik code Anda dibawah */
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list {
+  float: left;
+}
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+} 
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container img {
+  width: 20%;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+.copy-container h2 {
+  font-size: 60px;
+  margin-left:  350px;
+}
+.copy-container span {
+  color: #ff4a4a;
+}
+
+ .contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+ .contents1 {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.section-title1 {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contents-item1 img {
+  float: left;
+  margin-right: 40px;
+  height: 600px;
+}
+
+.contents-item1 p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+.contact-form input{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.contact-form textarea {
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+  background-color: #dee7ec;
+  color:#889eab;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 100px;
+  padding: 20px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
