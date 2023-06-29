@@ -17,8 +17,15 @@ Input username standart
 Input password
     Input Text      ${FIELD_PASSWORD}   ${PASSWORD}
 
+Input invalid password
+    Input Text      ${FIELD_PASSWORD}   ${INVALID_PASSWORD}
+
+
 Click Button Login
     Click Element   ${BTN_LOGIN}
 
 On homepage
     Page Should Contain Element        ${LOGO}
+
+Show Error ERROR_MESSEGE
+    Page Should Contain Element        ${ERROR_MESSEGE}
